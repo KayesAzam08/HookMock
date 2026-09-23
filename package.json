@@ -1,0 +1,25 @@
+{
+"name": "hookmock",
+"version": "1.0.0",
+"description": "The universal, stateful local mock server for testing complex e-commerce webhooks offline.",
+"main": "bin/hookmock.js",
+"bin": {
+"hookmock": "./bin/hookmock.js"
+},
+"scripts": {
+"test": "node --test test/"
+},
+"keywords": [
+"webhook",
+"mock",
+"stripe",
+"shopify",
+"testing",
+"cli"
+],
+"author": "Open Source Architect",
+"license": "MIT",
+"engines": {
+"node": ">=18.0.0"
+}
+}
